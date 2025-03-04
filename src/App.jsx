@@ -6,6 +6,7 @@ const HeavyComponent = lazy( () => import("./components/HeavyComponent"));
 
 // lazy(() => import("./components/HeavyComponent")) → Memuat komponen secara dinamis.
 // Suspense → Menampilkan fallback (loading) saat komponen sedang dimuat.
+ 
 
 function App() {
   const [count, setCount] = useState(0);
